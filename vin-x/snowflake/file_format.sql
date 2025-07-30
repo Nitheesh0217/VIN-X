@@ -1,0 +1,1 @@
+-- File format definition for VIN-X CSV files

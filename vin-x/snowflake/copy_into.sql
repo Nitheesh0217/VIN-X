@@ -1,0 +1,1 @@
+-- COPY INTO command for loading VIN data from S3

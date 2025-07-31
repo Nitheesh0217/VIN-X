@@ -34,15 +34,19 @@ SADCJ2FX2LA651904,White,Black
 
 ---
 
-## 🔄 Data Pipeline Overview
+🔄 Data Pipeline Overview
 
-1. **Source**: Raw vehicle records (CSV) stored in AWS S3
-2. **Staging**: External stage with IAM-secured Snowflake integration
-3. **Ingestion**: `COPY INTO` with schema flexibility
-4. **Transformation**: UDTF call – `PARSE_AND_ENHANCE_VIN(<VIN>)`
-5. **Output**: Updated `LOTSTOCK` table with enriched vehicle data
-6. **Interface**: Streamlit (optional) frontend for VIN lookup
+Source: VIN CSV uploaded to AWS S3
 
+Stage Setup: Snowflake STAGE defined with public or presigned URL
+
+Ingestion: COPY INTO using a defined FILE FORMAT
+
+Enrichment: Snowflake UDTF PARSE_AND_ENHANCE_VIN() from Secure Share
+
+Table Update: Enriched data merged into LOTSTOCK table
+
+Interface: Optional Streamlit UI for frontend queries
 ---
 
 ## 📊 Architecture Diagram

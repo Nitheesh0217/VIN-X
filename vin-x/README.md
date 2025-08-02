@@ -1,13 +1,13 @@
 
-# 🚗 VIN-X – Vehicle Identity Extraction Engine
+# VIN-X – Vehicle Identity Extraction Engine
 
 ---
 
-## 📌 Project Overview
+## Overview
 
 **VIN-X** is a cloud-native vehicle enrichment engine that transforms sparse Vehicle Identification Numbers (VINs) into fully decoded vehicle metadata. It leverages **Snowflake**, integrates with **AWS S3**, and optionally delivers a user-friendly **Streamlit** frontend. VIN-X demonstrates real-world data engineering and enrichment patterns using UDTFs, Secure Shares, and scalable ingestion.
 
-### 🔍 Key Capabilities
+### 🔍 Capabilities
 
 - 🚘 Decode VINs into Make, Model, Year, Engine, Plant, Transmission, and more  
 - ⛓️ Seamless integration with Snowflake Secure Shares and UDTFs  
@@ -17,7 +17,7 @@
 
 ---
 
-## 🔪 VIN Enrichment – Before & After
+## 🔪 VIN Enrichment 
 
 ### 📅 Raw Input:
 ```csv
@@ -25,7 +25,7 @@ VIN,Exterior_Color,Interior_Color
 SADCJ2FX2LA651904,White,Black
 ```
 
-### ✅ Enriched Output:
+### ✅ Output:
 
 | VIN               | MAKE   | MODEL_YEAR | PLANT_NAME  | ENGINE                            |
 |-------------------|--------|------------|--------------|------------------------------------|
@@ -112,7 +112,7 @@ WHERE t.vin = s.vin;
 
 ---
 
-## 🖥️ Streamlit Frontend (Optional)
+## 🖥️ Streamlit Frontend 
 
 ```python
 vin = st.text_input("Enter VIN:")

@@ -57,7 +57,7 @@ SADCJ2FX2LA651904,White,Black
 
 ```
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/8171a69c-ea98-4f2d-b187-6f08c6d87e81" />
+<img width="1536" height="1024" alt="image" src="assets/architecture.png" />
 
 ```
 

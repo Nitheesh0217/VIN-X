@@ -1,3 +1,7 @@
+![Snowflake](https://img.shields.io/badge/platform-Snowflake-blue)
+![AWS S3](https://img.shields.io/badge/cloud-AWS%20S3-orange)
+![Streamlit](https://img.shields.io/badge/frontend-Streamlit-red)
+![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 
 # VIN-X – Vehicle Identity Extraction Engine
 

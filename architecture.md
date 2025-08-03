@@ -71,6 +71,11 @@ SELECT *
 FROM TABLE(ADU_VIN.DECODE.PARSE_AND_ENHANCE_VIN('<vin_value>'));
 ```
 
+<p align="center">
+  <img src="assets/ER Diagram.png" alt="VIN-X ER" width="100%">
+</p>
+
+
 ### Step 3: Table Enrichment
 ```sql
 UPDATE vin.decode.lotstock t

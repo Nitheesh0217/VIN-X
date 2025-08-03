@@ -57,6 +57,9 @@ This document outlines the architecture, data flow, and design principles behind
 
 ## 🔄 3. Data Flow & Execution Pipeline
 
+<p align="center">
+  <img src="assets/ER Diagram.png" alt="VIN-X ER" width="100%">
+</p>
 ### Step 1: Ingestion from S3
 ```sql
 COPY INTO vin.decode.lotstock

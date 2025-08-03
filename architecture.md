@@ -57,9 +57,6 @@ This document outlines the architecture, data flow, and design principles behind
 
 ## 🔄 3. Data Flow & Execution Pipeline
 
-<p align="center">
-  <img src="assets/ER Diagram.png" alt="VIN-X ER" width="100%">
-</p>
 ### Step 1: Ingestion from S3
 ```sql
 COPY INTO vin.decode.lotstock
@@ -73,6 +70,11 @@ MATCH_BY_COLUMN_NAME = CASE_INSENSITIVE;
 SELECT *
 FROM TABLE(ADU_VIN.DECODE.PARSE_AND_ENHANCE_VIN('<vin_value>'));
 ```
+
+<p align="center">
+  <img src="assets/ER Diagram.png" alt="VIN-X ER" width="100%">
+</p>
+
 
 ### Step 3: Table Enrichment
 ```sql

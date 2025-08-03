@@ -51,11 +51,9 @@ SADCJ2FX2LA651904,White,Black
 ## 📊 Architecture Diagram
 
 ```
-S3 (VIN CSV) → Snowflake Stage → COPY INTO LOTSTOCK  
-     ↓                    ↓  
-Secure Share UDTF    →  Enriched Output  
-                          ↓  
-                    Streamlit UI (optional)
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/8171a69c-ea98-4f2d-b187-6f08c6d87e81" />
+
 ```
 
 ---

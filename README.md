@@ -55,11 +55,10 @@ SADCJ2FX2LA651904,White,Black
 
 ## 📊 Architecture Diagram
 
-```
-
-<img width="1536" height="1024" alt="image" src="assets/architecture.png" />
-
-```
+<!-- 🔥 Architecture Diagram -->
+<p align="center">
+  <img src="assets/vin-x-cover.png" alt="VIN-X Architecture" width="100%">
+</p>
 
 ---
 

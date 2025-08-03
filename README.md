@@ -57,7 +57,7 @@ SADCJ2FX2LA651904,White,Black
 
 <!-- 🔥 Architecture Diagram -->
 <p align="center">
-  <img src="assets/vin-x-cover.png" alt="VIN-X Architecture" width="100%">
+  <img src="assets/architecture.png" alt="VIN-X Architecture" width="100%">
 </p>
 
 ---

@@ -1,1 +1,5 @@
--- File format definition for VIN-X CSV files
+CREATE OR REPLACE FILE FORMAT vin.decode.csv_file_format
+  TYPE = 'CSV'
+  PARSE_HEADER = TRUE
+  TRIM_SPACE = TRUE
+  ERROR_ON_COLUMN_COUNT_MISMATCH = FALSE;

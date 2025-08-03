@@ -6,11 +6,13 @@
 ![Streamlit](https://img.shields.io/badge/frontend-Streamlit-red)
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ---
+## Overview
+
 <!-- 🔥 Cover Photo -->
 <p align="center">
   <img src="assets/cover.png" alt="VIN-X Cover" width="100%">
 </p>
-## Overview
+
 
 **VIN-X** is a cloud-native vehicle enrichment engine that transforms sparse Vehicle Identification Numbers (VINs) into fully decoded vehicle metadata. It leverages **Snowflake**, integrates with **AWS S3**, and optionally delivers a user-friendly **Streamlit** frontend. VIN-X demonstrates real-world data engineering and enrichment patterns using UDTFs, Secure Shares, and scalable ingestion.
 
